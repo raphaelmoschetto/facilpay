@@ -52,13 +52,13 @@
 				
 					<div class="quadro-cinza col-xs-12">
 						<div class="row">
-							<a href="#" title="Saiba mais">
+							<a href="dih-mais.php" title="Saiba mais">
 								<img src="images/dih.jpg" alt="DIH+" class="img-responsive" />
 							</a>
 							<span>
 								<h3>DIH+</h3>
 								<p>Adquirindo a solução <strong>Fácil Pay</strong> você aceita débito, crédito e gera renda complementar a cada 10 planos <strong>DIH+</strong> vendidos por mês.</p>
-								<a href="#" title="Saiba mais">Saiba mais...</a>
+								<a href="dih-mais.php" title="Saiba mais">Saiba mais...</a>
 							</span>
 						</div>
 					</div>

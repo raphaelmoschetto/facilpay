@@ -1204,6 +1204,246 @@ form input[type=button],
 	background-position:9px -275px;
 }
 
+.bonus
+{
+	background: url('../images/bonus.jpg') center no-repeat;
+}
+
+.bonus .content-bonus
+{
+	padding-top:50px;
+	height: 478px;
+}
+
+.bonus .content-bonus span
+{
+	float:left;
+	line-height: 76px;
+	font-size:120px;
+	color:#702159;
+	font-weight: bold;
+	margin-right:20px;
+}
+
+.bonus .content-bonus p
+{
+	float:left;
+	width:200px;
+	font-size:32px;
+	color:#e85d21;
+	font-weight: bold;
+}
+
+.bonus .content-bonus p strong, .bonus .second-bonus p
+{
+	color:#702159;
+}
+
+.bonus .second-bonus p strong
+{
+	color:#ffffff;
+}
+
+.bonus .second-bonus p b
+{
+	font-size:40px;
+}
+
+.bonus .second-bonus p
+{
+	width: 250px;
+}
+
+.pagamentos
+{
+	background:#faf2e5;
+	padding-top:50px;
+}
+
+.pagamentos .header-pag .dih-logo
+{
+	float:left;
+	max-width: 179px;
+	margin-right:20px;
+}
+
+.pagamentos .header-pag h2
+{
+	float:left;
+	color:#e85d21;
+	font-size:30px;
+	margin-top:28px;
+}
+
+.pagamentos .header-pag p
+{
+	float:left;
+	color:#8a8987;
+	font-size:16px;
+	margin-top:5px;
+}
+
+.pagamentos .cards
+{
+	float:left;
+	width: 100%;
+	border:1px solid #bfbfbf;
+	margin-top:30px;
+	padding:15px 15px 0;
+}
+
+.pagamentos .cards h3
+{
+	color:#e85d21;
+	font-size:16px;
+	font-weight: bold;
+	margin:0 0 5px 0;
+}
+
+.pagamentos .cards p
+{
+	color:#828180;
+	font-size:14px;
+	margin-bottom:0;
+}
+
+.pagamentos .cards span
+{
+	color:#828180;
+	font-size:24px;
+	font-weight: bold;
+	display: block;
+	margin-bottom:14px;
+}
+
+.pagamentos .cards .cards-desc
+{
+	float:left;
+	border-top:1px solid #bfbfbf;
+	padding:15px;
+	background:#e85d21;
+	font-weight: bold;
+}
+
+.pagamentos .cards .cards-desc i
+{
+	float:left;
+	width:64px;
+	height:57px;
+	display:inline-block;
+	background:url('../images/cel-phone.png') center no-repeat;
+
+}
+
+.pagamentos .cards .cards-desc p
+{
+	margin-top:-2px;
+	display:inline-block;
+	color:#702159;
+	font-size:16px;
+	line-height: 20px;
+}
+
+.pagamentos .cards .cards-desc p strong
+{
+	color:#ffffff;
+}
+
+.parcelado
+{
+	background:#e85d21;
+	padding:25px 25px 14px 25px;
+	margin:72px 0;
+}
+
+.parcelado i
+{
+	display:inline-block;
+	width:68px;
+	height:39px;
+	margin:0 20px 0 40px;
+	background:url('../images/parcelado.png') no-repeat;
+}
+
+.parcelado span
+{
+	position:relative;
+	top:-12px;
+	display:inline-block;
+	color:#ffffff;
+	font-size:22px;
+	font-weight: bold;
+}
+
+.parcelado .cartoes
+{
+	float:right;
+	margin-right:40px;
+}
+
+.bg-orange
+{
+	background:#e85d21;
+	padding-top:50px;
+}
+
+.bg-orange .header-orange 
+{
+	text-align: center;
+}
+
+.bg-orange .header-orange i
+{
+	display:inline-block;
+	width:81px;
+	height: 69px;
+	margin-right:20px;
+	background:url('../images/mao.png');
+}
+
+.bg-orange .header-orange h2
+{
+	position:relative;
+	top:-25px;
+	display:inline-block;
+	color:#ffffff;
+	font-size:22px;
+	margin-bottom:40px;
+}
+
+.bg-orange .cards
+{
+	padding:15px 20px 5px 20px;
+	border:1px solid #ffffff;
+}
+
+.bg-orange .cards h3
+{
+	margin-top:0;
+	color:#ffffff;
+	font-size:16px;
+}
+
+.bg-orange .cards span
+{
+	color:#ffffff;
+	font-size:36px;
+	font-weight: bold;
+}
+
+.bg-orange p
+{
+	display:inline-block;
+	margin:30px 0;
+	font-size:15px;
+	color:#ffffff;
+}
+
+.bg-orange p a
+{
+	color:#fff;
+	text-decoration: underline;
+}
 
 
 
@@ -1450,6 +1690,33 @@ form input[type=button],
 			text-shadow: 1px 1px #ffffff;
 		}
 
+		.pagamentos .cards .cards-desc
+		{
+			text-align: center;
+		}
+
+		.pagamentos .cards .cards-desc i
+		{
+			float:none;
+		}
+
+		.parcelado
+		{
+			text-align: center;
+			margin-top:30px;
+		}
+
+		.parcelado i, .bg-orange .header-orange i
+		{
+			margin-left:0;
+		}
+
+		.parcelado span
+		{
+			font-size:14px;
+			top:-16px;
+		}
+
     }
 
     /* Small Devices, Tablets */
@@ -1647,7 +1914,51 @@ form input[type=button],
 			display:block;
 		}
 
+		.bonus .content-bonus
+		{
+			padding-top:20px;
+		}
 
+		.bonus .content-bonus span
+		{
+			width: 100%;
+    		display: inline-block;
+    		text-align: center;
+			float:none;
+			font-size:40px;
+		}
+
+		.bonus .content-bonus p
+		{
+			float:none;
+			width: 100%;
+			font-size:20px;
+			display:block;
+			padding:10px;
+			background: rgba(255,255,255,0.6);
+		}
+
+		.parcelado i, .bg-orange .header-orange i
+		{
+			margin-bottom:15px;
+		}
+
+		.parcelado .cartoes
+		{
+			float:none;
+			display:inline-block;
+			margin-right:0;
+		}
+
+		.bg-orange .header-orange h2
+		{
+			margin-bottom:15px;
+		}
+
+		.bg-orange .cards
+		{
+			margin-bottom:20px;
+		}
 
     }
 

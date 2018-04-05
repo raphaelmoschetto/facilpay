@@ -128,6 +128,129 @@
 
 	</div>
 
+	<div class="container-fluid bonus">
+
+		<div class="container">
+			<div class="row">
+				<div class="content-bonus col-md-6 col-sm-6 col-xs-6">
+					<div class="col-md-8">
+						<div class="row">
+							<span>+</span>
+							<p>BÔNUS MENSAL DE <strong>R$10,00</strong> EM RECARGA</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="content-bonus second-bonus col-md-6 col-sm-6 col-xs-6">
+					<div class="col-md-10">
+						<div class="row">
+							<span>+</span>
+							<p><b>10</b> SORTEIOS DE <strong>R$1.000,00</strong> MENSAIS</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="container-fluid pagamentos">
+
+		<div class="container">
+			<div class="row">
+				<div class="header-pag col-md-8 col-sm-12">
+					<span>
+						<img src="images/logo-dih.png" class="dih-logo" />
+					</span>
+					<h2>COMO O SEU CLIENTE PAGA?</h2>
+					<p>DIH+ é comercializado em três modalidades:</p>
+				</div>
+
+				<div class="col-md-12">
+					<div class="row">
+						<div class="col-md-4 col-sm-4">
+							<div class="cards">
+								<h3>PLANO TRIMESTRAL</h3>
+								<p>(3 meses)</p>
+								<span>R$ 45,00</span>
+								<div class="cards-desc row">
+									<i class="cel-phone col-md-offset-2"></i>
+									<p class="col-md-7">Recebe de volta <strong>BÔNUS</strong> em recarga<br class="hidden-xs" /> no valor de <strong>R$30,00</strong></p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-4">
+							<div class="cards">
+								<h3>PLANO SEMESTRAL</h3>
+								<p>(6 meses) R$ 90,00</p>
+								<span>3x de R$ 30,00</span>
+								<div class="cards-desc row">
+									<i class="cel-phone col-md-offset-2"></i>
+									<p class="col-md-7">Recebe de volta <strong>BÔNUS</strong> em recarga<br class="hidden-xs" /> no valor de <strong>R$60,00</strong></p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-4">
+							<div class="cards">
+								<h3>PLANO ANUAL</h3>
+								<p>(12 meses) R$ 180,00</p>
+								<span>6x de R$ 30,00</span>
+								<div class="cards-desc row">
+									<i class="cel-phone col-md-offset-2"></i>
+									<p class="col-md-7">Recebe de volta <strong>BÔNUS</strong> em recarga<br class="hidden-xs" /> no valor de <strong>R$120,00</strong></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="parcelado">
+				<i></i>
+				<span>TUDO PARCELADO NO CARTÃO DE CRÉDITO.</span>
+				<div class="cartoes ">
+					<img src="images/bandeiras-cartoes.png" />
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid bg-orange">
+		<div class="row">
+			<div class="container">
+				<div class="header-orange">
+					<i></i><h2>QUANTO VOCÊ GANHA A CADA 10 PLANOS VENDIDOS?</h2>
+				</div>
+
+				<div class="col-md-12">
+					<div class="row">
+						<div class="col-md-4 col-sm-4">
+							<div class="cards">
+								<h3>PLANO TRIMESTRAL</h3>
+								<span>R$ 42,90</span>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-4">
+							<div class="cards">
+								<h3>PLANO SEMESTRAL</h3>
+								<span>R$ 85,80</span>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-4">
+							<div class="cards">
+								<h3>PLANO ANUAL</h3>
+								<span>R$ 171,60</span>
+							</div>
+						</div>
+						<p class="col-md-12">Para mais informações sobre o DIH+ leia o <a href="#" title="Leia o regulamento">regulamento</a>.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
 	<?php include("includes/footer.php"); ?>
 </body>
 </html>
