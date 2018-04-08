@@ -24,33 +24,34 @@
 						<div class="row">
 							<ul id="w2" class="navbar-nav nav col-md-10 col-sm-8 col-xs-12">
 								<li>
-									<a href="index.php">HOME</a>
+									<a href="index.php" title="Página Inicial">HOME</a>
 								</li>
 								<li>
-									<a href="quem-somos.php">QUEM SOMOS</a>
+									<a href="quem-somos.php" title="Quem Somos">QUEM SOMOS</a>
 								</li>
 								<li>
-									<div class="dropdown">
-									<a class="dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
-										NOSSAS SOLUÇÕES
-										<span class="caret"></span>
-									</a>
-									<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-										<li role="presentation"><a role="menuitem" tabindex="-1" href="cartao-facil-pay.php">Cartão Fácil Pay</a></li>
-										<li role="presentation"><a role="menuitem" tabindex="-1" href="antecipacao-de-recebiveis.php">Antecipação de Recebíveis</a></li>
-										<li role="presentation"><a role="menuitem" tabindex="-1" href="antecipacao-de-recebiveis.php">ARES</a></li>
-										<li role="presentation"><a role="menuitem" tabindex="-1" href="renda-complementar.php">Renda Complementar</a></li>
-									</ul>
-									</div>
+									<!--<div class="dropdown">
+										<a class="dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+											NOSSAS SOLUÇÕES
+											<span class="caret"></span>
+										</a>
+										<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+											<li role="presentation"><a role="menuitem" tabindex="-1" href="cartao-facil-pay.php">Cartão Fácil Pay</a></li>
+											<li role="presentation"><a role="menuitem" tabindex="-1" href="antecipacao-de-recebiveis.php">Antecipação de Recebíveis</a></li>
+											<li role="presentation"><a role="menuitem" tabindex="-1" href="antecipacao-de-recebiveis.php">ARES</a></li>
+											<li role="presentation"><a role="menuitem" tabindex="-1" href="renda-complementar.php">Renda Complementar</a></li>
+										</ul>
+									</div>-->
+									<a href="nossas-solucoes.php" title="Nossas Soluções">NOSSAS SOLUÇÕES</a>
 								</li>
 								<li>
-									<a href="duvidas-frequentes.php">DÚVIDAS FREQUENTES</a>
+									<a href="duvidas-frequentes.php" title="Dúvidas Frequentes">DÚVIDAS FREQUENTES</a>
 								</li>
 								<li>
-									<a href="trabalhe-conosco.php">TRABALHE NA FÁCIL PAY</a>
+									<a href="trabalhe-conosco.php" title="Trabalhe na Fácil Pay">TRABALHE NA FÁCIL PAY</a>
 								</li>
 								<li>
-									<a href="fale-conosco.php">FALE CONOSCO</a>
+									<a href="fale-conosco.php" title="Fale Conosco">FALE CONOSCO</a>
 								</li>
 							</ul>
 							<div class="area-cliente float-right by">

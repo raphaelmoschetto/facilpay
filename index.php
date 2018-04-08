@@ -30,13 +30,18 @@
 <body>
 	<?php include("includes/header.php"); ?>
 	<div id="banner">
-		<a href="cadastre-se.php" title="Quer ser cliente? Cadastre-se aqui">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6">
-						<span><p>QUER TER <strong>RENDA COMPLEMENTAR</strong><br class="hidden-xs hidden-sm" /> E MAIS POSSIBILIDADES DE VENDAS?</p><i></i></span>
-						<span><p>QUER MOVIMENTAR O DINHEIRO DAS<br class="hidden-xs hidden-sm" /> SUAS VENDAS <strong>SEM TER CONTA EM BANCO</strong>?</p><i></i></span>
-						<span><p>QUER USAR O DINHEIRO DAS SUAS<br class="hidden-xs hidden-sm" /> VENDAS PARA <strong>REPOR SEU ESTOQUE</strong>?</p><i></i></span>
+						<a href="renda-complementar.php" title="Quer ter renda complementar? Clique aqui">
+							<span><p>QUER TER <strong>RENDA COMPLEMENTAR</strong><br class="hidden-xs hidden-sm" /> E MAIS POSSIBILIDADES DE VENDAS?</p><i></i></span>
+						</a>
+						<a href="nossas-solucoes.php" title="Quer ter renda complementar? Clique aqui">
+							<span><p>QUER MOVIMENTAR O DINHEIRO DAS<br class="hidden-xs hidden-sm" /> SUAS VENDAS <strong>SEM TER CONTA EM BANCO</strong>?</p><i></i></span>
+						</a>
+						<a href="nossas-solucoes.php" title="Quer ter renda complementar? Clique aqui">
+							<span><p>QUER USAR O DINHEIRO DAS SUAS<br class="hidden-xs hidden-sm" /> VENDAS PARA <strong>REPOR SEU ESTOQUE</strong>?</p><i></i></span>
+						</a>
 					</div><!--col-md-6-->
 
 					<div class="col-md-6">
@@ -49,11 +54,10 @@
 
 					<div class="col-md-6 conv">
 						<p><strong>QUER SER CLIENTE?</strong></p>
-						<button>CADASTRE-SE AQUI</button>
+						<a href="cadastre-se.php" title="Quer ser cliente? Cadastre-se aqui"><button>CADASTRE-SE AQUI</button></a>
 					</div><!--.conv-->
 				</div>
 			</div><!--.container-->
-		</a>
 	</div>
 	<!--#banner-->
 
